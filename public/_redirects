@@ -7,3 +7,11 @@
 # Old or guessed French URLs
 /fr    /  301
 /fr/*  /  301
+
+# TEMP diagnostics for English matching (remove after testing)
+/__t1  /en/  302!  Language=en
+/__t2  /en/  302!  Language=de,en
+/__t3  /en/  302!  Language=en-us
+/__t4  /en/  302!  Language=en,de
+/__t5  /en/  302!  Language=EN
+/__t6  /en/  302!  Country=us,gb,in,fr
