@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description|attr}}" />
+  <link rel="canonical" href="{{url}}" />
+  <link rel="alternate" hreflang="fr" href="https://www.meridienbrandsociety.com/" />
+  <link rel="alternate" hreflang="en" href="https://www.meridienbrandsociety.com/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.meridienbrandsociety.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Méridien Brand Society" />
+  <meta property="og:title" content="{{meta.title|attr}}" />
+  <meta property="og:description" content="{{meta.ogDescription|attr}}" />
+  <meta property="og:url" content="{{url}}" />
+  <meta property="og:locale" content="{{locale}}" />
+  <meta property="og:locale:alternate" content="{{altLocale}}" />
+  <meta name="theme-color" content="#051143" />
+  <link rel="icon" type="image/svg+xml" href="/m-mark.svg" />
+  <script>try{if(sessionStorage.getItem('mbs-quick-intro'))document.documentElement.classList.add('quick')}catch(e){}</script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="m-body" viewBox="0 0 200 200"><path fill-rule="evenodd" d="M80.19 25.53 Q76.25 26.99 70.77 30.30 Q65.30 33.61 60.45 39.11 Q55.61 44.61 55.96 44.92 Q56.31 45.22 57.72 45.19 Q59.12 45.16 63.75 44.38 Q68.38 43.59 69.44 43.71 Q70.50 43.82 71.02 44.12 Q71.54 44.42 71.40 45.14 Q71.25 45.87 69.93 46.85 Q68.61 47.83 64.78 49.35 Q60.94 50.86 58.51 52.07 Q56.08 53.27 55.75 53.71 Q55.42 54.16 56.09 54.82 Q56.75 55.49 63.56 58.63 Q70.38 61.78 71.12 62.41 Q71.86 63.05 71.86 63.67 Q71.86 64.30 71.30 64.57 Q70.75 64.84 69.12 64.89 Q67.50 64.94 64.94 64.61 Q62.38 64.28 59.75 63.53 Q57.12 62.77 55.19 62.62 Q53.25 62.46 52.52 62.70 Q51.78 62.94 51.56 63.39 Q51.33 63.83 51.42 64.48 Q51.50 65.12 53.96 71.25 Q56.43 77.38 56.48 78.27 Q56.54 79.16 56.17 79.68 Q55.80 80.20 55.28 80.11 Q54.75 80.03 54.15 79.55 Q53.54 79.06 49.82 74.28 Q46.09 69.51 45.12 68.84 Q44.16 68.18 43.65 68.72 Q43.14 69.26 42.86 72.13 Q42.58 75.00 41.95 76.95 Q41.31 78.91 40.92 78.93 Q40.53 78.95 40.09 78.41 Q39.65 77.87 38.52 73.97 Q37.40 70.08 37.01 69.73 Q36.63 69.38 36.05 69.89 Q35.46 70.41 33.02 75.08 Q30.58 79.76 29.09 87.76 Q27.59 95.75 27.92 98.81 Q28.25 101.88 27.93 106.25 Q27.60 110.62 28.95 117.69 Q30.29 124.75 31.84 128.92 Q33.38 133.09 35.16 136.66 Q36.95 140.23 38.65 142.88 Q40.34 145.53 44.95 150.23 Q49.55 154.93 51.75 156.18 Q53.95 157.44 54.98 157.65 Q56.01 157.85 58.16 157.76 Q60.30 157.66 61.43 157.19 Q62.55 156.73 63.03 156.06 Q63.50 155.38 63.68 154.56 Q63.86 153.74 63.97 149.18 Q64.08 144.61 62.49 137.83 Q60.90 131.05 60.97 129.09 Q61.04 127.14 60.45 124.94 Q59.85 122.75 59.79 120.19 Q59.73 117.62 60.32 115.38 Q60.90 113.13 61.04 111.19 Q61.18 109.25 62.23 107.16 Q63.28 105.07 64.59 103.79 Q65.90 102.52 66.57 102.40 Q67.25 102.27 67.91 102.51 Q68.58 102.74 69.50 103.53 Q70.43 104.31 71.32 105.76 Q72.22 107.22 73.03 110.27 Q73.83 113.32 73.81 115.28 Q73.78 117.25 74.36 121.81 Q74.94 126.38 74.48 133.44 Q74.02 140.50 74.50 144.94 Q74.97 149.38 74.83 151.75 Q74.69 154.12 76.05 159.46 Q77.41 164.80 79.49 168.36 Q81.58 171.92 84.60 174.13 Q87.62 176.35 91.81 177.24 Q96.00 178.14 99.70 177.18 Q103.40 176.23 104.58 175.50 Q105.76 174.78 108.34 172.24 Q110.92 169.71 113.19 164.73 Q115.47 159.75 116.32 155.12 Q117.17 150.50 117.06 148.20 Q116.95 145.90 117.57 142.70 Q118.19 139.50 118.12 137.14 Q118.05 134.78 118.53 133.14 Q119.01 131.50 119.09 129.46 Q119.17 127.42 119.57 126.02 Q119.98 124.62 120.17 122.62 Q120.36 120.62 121.96 113.18 Q123.57 105.74 125.88 99.91 Q128.19 94.08 128.99 93.27 Q129.80 92.45 130.76 92.44 Q131.72 92.43 132.68 93.53 Q133.65 94.62 134.12 95.91 Q134.59 97.20 134.70 103.41 Q134.81 109.62 133.84 115.82 Q132.87 122.01 132.84 123.96 Q132.81 125.92 132.32 127.47 Q131.83 129.02 131.74 131.14 Q131.66 133.25 131.24 134.75 Q130.82 136.25 130.95 138.62 Q131.07 140.99 130.38 144.12 Q129.68 147.25 129.96 150.94 Q130.25 154.62 129.98 158.49 Q129.71 162.36 130.65 165.83 Q131.58 169.30 132.90 171.43 Q134.22 173.55 135.10 174.27 Q135.98 175.00 136.86 175.42 Q137.75 175.85 141.12 175.83 Q144.50 175.80 145.94 175.30 Q147.37 174.80 150.24 173.03 Q153.11 171.27 155.58 169.27 Q158.04 167.27 161.66 162.51 Q165.28 157.75 168.43 150.91 Q171.58 144.06 173.33 137.52 Q175.08 130.97 175.61 127.98 Q176.14 125.00 176.52 116.00 Q176.90 107.00 176.47 104.11 Q176.04 101.22 176.11 98.86 Q176.18 96.50 175.57 92.88 Q174.97 89.26 172.84 80.07 Q170.72 70.88 169.20 66.44 Q167.68 62.00 164.93 55.88 Q162.19 49.75 158.48 43.86 Q154.77 37.97 152.35 35.36 Q149.92 32.74 148.52 31.75 Q147.12 30.76 144.55 29.88 Q141.97 29.01 139.09 28.94 Q136.22 28.88 135.24 29.10 Q134.26 29.32 131.82 30.59 Q129.38 31.86 125.88 35.33 Q122.39 38.79 120.09 42.17 Q117.79 45.54 114.87 50.58 Q111.95 55.62 109.40 60.69 Q106.85 65.75 102.94 75.18 Q99.03 84.61 97.49 86.59 Q95.95 88.56 95.29 88.92 Q94.62 89.28 94.01 89.30 Q93.39 89.32 92.07 88.17 Q90.75 87.03 90.20 85.45 Q89.66 83.88 91.82 74.82 Q93.98 65.77 96.89 57.93 Q99.79 50.09 104.56 42.27 Q109.34 34.46 109.55 33.10 Q109.77 31.75 109.64 29.67 Q109.51 27.58 108.43 26.23 Q107.34 24.88 105.67 24.06 Q104.00 23.24 98.88 22.79 Q93.75 22.33 88.94 23.20 Q84.12 24.07 80.19 25.53Z"/></symbol>
+    <symbol id="m-spark" viewBox="0 0 200 200"><path d="M49.56 33.81 Q49.50 33.25 49.00 33.62 Q48.50 34.00 45.31 38.56 Q42.12 43.12 41.81 43.19 Q41.50 43.25 41.25 43.00 Q41.00 42.75 40.31 39.19 Q39.62 35.62 39.25 35.25 Q38.88 34.88 38.56 35.81 Q38.25 36.75 38.06 39.19 Q37.88 41.62 37.31 43.12 Q36.75 44.62 36.44 44.62 Q36.12 44.62 33.38 42.44 Q30.62 40.25 30.44 40.56 Q30.25 40.88 31.62 43.69 Q33.00 46.50 33.06 47.06 Q33.12 47.62 32.19 47.88 Q31.25 48.12 29.62 47.62 Q28.00 47.12 26.75 47.12 Q25.50 47.12 28.31 49.62 Q31.12 52.12 30.88 52.62 Q30.62 53.12 28.44 53.81 Q26.25 54.50 25.31 55.06 Q24.38 55.62 24.88 55.94 Q25.38 56.25 27.81 56.44 Q30.25 56.62 30.88 56.94 Q31.50 57.25 29.38 60.50 Q27.25 63.75 27.69 63.81 Q28.12 63.88 30.56 62.44 Q33.00 61.00 33.44 61.12 Q33.88 61.25 33.94 62.50 Q34.00 63.75 33.25 67.50 Q32.50 71.25 32.88 71.06 Q33.25 70.88 34.94 67.56 Q36.62 64.25 37.19 64.06 Q37.75 63.88 38.31 65.31 Q38.88 66.75 39.75 71.50 Q40.62 76.25 40.88 76.06 Q41.12 75.88 41.44 69.88 Q41.75 63.88 41.94 63.50 Q42.12 63.12 42.50 63.06 Q42.88 63.00 47.75 69.19 Q52.62 75.38 53.38 75.88 Q54.12 76.38 52.81 72.88 Q51.50 69.38 49.62 65.56 Q47.75 61.75 47.69 61.00 Q47.62 60.25 47.88 60.00 Q48.12 59.75 49.38 59.81 Q50.62 59.88 59.44 61.69 Q68.25 63.50 68.75 63.38 Q69.25 63.25 68.81 62.88 Q68.38 62.50 60.50 59.19 Q52.62 55.88 51.75 55.31 Q50.88 54.75 50.88 54.44 Q50.88 54.12 51.75 53.38 Q52.62 52.62 59.19 49.94 Q65.75 47.25 66.25 46.81 Q66.75 46.38 64.62 46.38 Q62.50 46.38 58.81 47.19 Q55.12 48.00 52.75 48.19 Q50.38 48.38 50.19 47.94 Q50.00 47.50 50.25 47.06 Q50.50 46.62 53.94 43.12 Q57.38 39.62 57.94 38.69 Q58.50 37.75 57.56 38.06 Q56.62 38.38 52.25 41.25 Q47.88 44.12 47.38 44.19 Q46.88 44.25 46.81 43.25 Q46.75 42.25 48.19 38.31 Q49.62 34.38 49.56 33.81Z"/></symbol>
+  </svg>
+
+  <div class="loader" aria-hidden="true">
+    <svg class="loader-mark" viewBox="0 0 200 200">
+      <use href="#m-body" class="loader-body" />
+      <use href="#m-spark" class="loader-spark" />
+    </svg>
+  </div>
+
+  <a class="skip" href="#main">{{ui.skip}}</a>
+
+  <header class="nav">
+    <a class="nav-brand" href="#top" aria-label="{{ui.home|attr}}">
+      <svg viewBox="0 0 200 200" aria-hidden="true"><use href="#m-body" class="mark-body" /><use href="#m-spark" class="mark-spark" /></svg>
+      <span>Méridien</span>
+    </a>
+    <div class="nav-end">
+      <nav class="nav-links" aria-label="{{ui.navLabel|attr}}">
+        <a href="#projects">{{nav.projects}}</a>
+        <a href="#membership">{{nav.membership}}</a>
+        <a href="#events">{{nav.events}}</a>
+        <a class="btn btn-spark btn-small" href="#partner">{{nav.brief}}</a>
+      </nav>
+      <div class="lang" role="group" aria-label="{{ui.langLabel|attr}}">
+        <a class="lang-opt" href="/" hreflang="fr" lang="fr" data-lang="fr" aria-label="Français"{{cur.fr}}>FR</a>
+        <a class="lang-opt" href="/en/" hreflang="en" lang="en" data-lang="en" aria-label="English"{{cur.en}}>EN</a>
+      </div>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" data-menu="{{ui.menu|attr}}" data-close="{{ui.close|attr}}">{{ui.menu}}</button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#projects">{{nav.projects}}</a>
+    <a href="#membership">{{nav.membership}}</a>
+    <a href="#events">{{nav.events}}</a>
+    <a href="#partner">{{nav.brief}}</a>
+  </div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <canvas class="liquid" aria-hidden="true"></canvas>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="hero-eyebrow">{{hero.eyebrow}}</p>
+        <h1 class="hero-title">
+          <span class="line"><span>{{hero.line1}}</span></span>
+          <span class="line"><span><em class="accent">{{hero.line2}}</em></span></span>
+        </h1>
+        <div class="hero-sub">
+          <p>{{hero.sub1}}</p>
+          <p>{{hero.sub2}}</p>
+        </div>
+        <div class="hero-ctas">
+          <a class="btn btn-spark magnetic" href="#partner">{{hero.ctaBrief}}</a>
+          <a class="btn btn-ghost" href="#membership">{{hero.ctaJoin}}</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="manifesto" aria-labelledby="manifesto-title">
+      <h2 id="manifesto-title" class="visually-hidden">{{manifesto.title}}</h2>
+      <p class="manifesto-text">{{manifesto.text}}</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="projects-track">
+        <div class="panel panel-intro">
+          <h2 id="projects-title">{{projects.title}}</h2>
+          <p>{{projects.intro}}</p>
+        </div>
+
+        <article class="panel panel-client" style="--bg:#00AB38">
+          <div class="panel-top">
+            <span class="panel-origin">{{projects.bioli.origin}}</span>
+            <span class="panel-lead">{{projects.bioli.lead}}</span>
+          </div>
+          <h3 class="client-logo client-logo-bioli"><img src="/logos/bioli.png" alt="Bioli" width="612" height="285" loading="lazy" /></h3>
+          <svg class="route" viewBox="0 0 400 120" aria-hidden="true"><path d="M20 30 C 140 -10, 260 140, 380 90" /><circle cx="20" cy="30" r="6" /><circle cx="380" cy="90" r="9" class="home" /></svg>
+          <p class="client-brief">{{projects.bioli.brief}}</p>
+        </article>
+
+        <article class="panel panel-client" style="--bg:#EB1C24">
+          <div class="panel-top">
+            <span class="panel-origin">{{projects.flaneries.origin}}</span>
+            <span class="panel-lead">{{projects.flaneries.lead}}</span>
+          </div>
+          <h3 class="client-logo client-logo-flaneries"><img src="/logos/flaneries.png" alt="Les Flâneries Musicales de Reims" width="777" height="612" loading="lazy" /></h3>
+          <svg class="route" viewBox="0 0 400 120" aria-hidden="true"><circle cx="200" cy="60" r="9" class="home" /><circle cx="200" cy="60" r="30" class="ring" /><circle cx="200" cy="60" r="54" class="ring" /></svg>
+          <p class="client-brief">{{projects.flaneries.brief}}</p>
+        </article>
+
+        <article class="panel panel-client" style="--bg:#02465D">
+          <div class="panel-top">
+            <span class="panel-origin">{{projects.rosy.origin}}</span>
+            <span class="panel-lead">{{projects.rosy.lead}}</span>
+          </div>
+          <h3 class="client-logo client-logo-rosy"><img src="/logos/rosy-fresh.png" alt="Rosy Fresh" width="873" height="513" loading="lazy" /></h3>
+          <svg class="route" viewBox="0 0 400 120" aria-hidden="true"><path d="M380 100 C 280 -20, 120 -20, 20 60" /><circle cx="380" cy="100" r="6" /><circle cx="20" cy="60" r="9" class="home" /></svg>
+          <p class="client-brief">{{projects.rosy.brief}}</p>
+        </article>
+
+        <article class="panel panel-open">
+          <svg class="open-mark" viewBox="22 30 50 50" aria-hidden="true"><use href="#m-spark" /></svg>
+          <h3>{{projects.open.title}}</h3>
+          <p>{{projects.open.text}}</p>
+          <a class="btn btn-ink" href="#partner">{{projects.open.cta}}</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP -->
+    <section class="membership" id="membership" aria-labelledby="benefits-title">
+      <div class="wrap">
+        <div class="benefits-head">
+          <h2 id="benefits-title">{{membership.title}}</h2>
+          <p>{{membership.intro}}</p>
+        </div>
+        <ul class="benefits">
+          <li class="benefit">
+            <h3>{{membership.b1.title}}</h3>
+            <p>{{membership.b1.text}}</p>
+          </li>
+          <li class="benefit">
+            <h3>{{membership.b2.title}}</h3>
+            <p>{{membership.b2.text}}</p>
+          </li>
+          <li class="benefit">
+            <h3>{{membership.b3.title}}</h3>
+            <p>{{membership.b3.text}}</p>
+          </li>
+          <li class="benefit">
+            <h3>{{membership.b4.title}}</h3>
+            <p>{{membership.b4.text}}</p>
+          </li>
+          <li class="benefit">
+            <h3>{{membership.b5.title}}</h3>
+            <p>{{membership.b5.text}}</p>
+          </li>
+        </ul>
+
+        <div class="join" id="join">
+          <div class="join-offer">
+            <h2>{{membership.join}}</h2>
+            <div class="prices">
+              <div class="price">
+                <span class="price-amount">{{membership.price1}}</span>
+                <span class="price-label">{{membership.label1}}</span>
+              </div>
+              <div class="price">
+                <span class="price-amount">{{membership.price2}}</span>
+                <span class="price-label">{{membership.label2}}</span>
+              </div>
+            </div>
+            <figure class="hoodie">
+              <img src="/hoodie.png" alt="{{membership.hoodie.alt|attr}}" width="457" height="273" loading="lazy" />
+              <figcaption>
+                <strong>{{membership.hoodie.name}}</strong>
+                <span>{{membership.hoodie.price}}</span>
+              </figcaption>
+            </figure>
+          </div>
+
+          <form class="form" name="membership" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-success="{{membership.form.success|attr}}" data-sending="{{ui.sending|attr}}" data-error="{{ui.sendError|attr}}">
+            <input type="hidden" name="form-name" value="membership" />
+            <input type="hidden" name="language" value="{{lang}}" />
+            <p class="hp"><label>{{ui.honeypot}} <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+            <p class="form-note">{{membership.form.note}}</p>
+            <label class="field"><span>{{membership.form.name}}</span><input name="name" required autocomplete="name" /></label>
+            <label class="field"><span>{{membership.form.email}}</span><input name="email" type="email" required autocomplete="email" /></label>
+            <fieldset class="choice">
+              <legend>{{membership.form.membership}}</legend>
+              <label><input type="radio" name="membership" value="One semester (€15)" required /> <span>{{membership.form.semester}}</span></label>
+              <label><input type="radio" name="membership" value="Full year (€25)" /> <span>{{membership.form.year}}</span></label>
+            </fieldset>
+            <fieldset class="choice">
+              <legend>{{membership.form.hoodie}}</legend>
+              <label><input type="radio" name="hoodie" value="Yes" required /> <span>{{membership.form.yes}}</span></label>
+              <label><input type="radio" name="hoodie" value="No" /> <span>{{membership.form.no}}</span></label>
+            </fieldset>
+            <label class="field field-size" hidden><span>{{membership.form.size}}</span>
+              <select name="size">
+                <option value="">{{membership.form.sizeChoose}}</option>
+                <option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option>
+              </select>
+            </label>
+            <button class="btn btn-spark" type="submit">{{membership.form.submit}}</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events" id="events" aria-labelledby="events-title">
+      <div class="wrap">
+        <h2 id="events-title">{{events.title}}</h2>
+        <ol class="timeline">
+          <li class="event">
+            <time datetime="2026-10-30">{{events.e1.date}}</time>
+            <div>
+              <h3>{{events.e1.title}}</h3>
+              <p>{{events.e1.text}}</p>
+            </div>
+          </li>
+          <li class="event">
+            <time>{{events.e2.date}}</time>
+            <div>
+              <h3>{{events.e2.title}}</h3>
+              <p>{{events.e2.text}}</p>
+            </div>
+          </li>
+          <li class="event">
+            <time>{{events.e3.date}}</time>
+            <div>
+              <h3>{{events.e3.title}}</h3>
+              <p>{{events.e3.text}}</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PARTNER -->
+    <section class="partner" id="partner" aria-labelledby="partner-title">
+      <div class="wrap partner-grid">
+        <div class="partner-copy">
+          <h2 id="partner-title">{{partner.title}}</h2>
+          <p>{{partner.text}}</p>
+          <ul class="partner-facts">
+            <li>{{partner.f1}}</li>
+            <li>{{partner.f2}}</li>
+            <li>{{partner.f3}}</li>
+          </ul>
+        </div>
+        <form class="form form-dark" name="partner" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-success="{{partner.form.success|attr}}" data-sending="{{ui.sending|attr}}" data-error="{{ui.sendError|attr}}">
+          <input type="hidden" name="form-name" value="partner" />
+          <input type="hidden" name="language" value="{{lang}}" />
+          <p class="hp"><label>{{ui.honeypot}} <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+          <label class="field"><span>{{partner.form.name}}</span><input name="name" required autocomplete="name" /></label>
+          <label class="field"><span>{{partner.form.company}}</span><input name="company" required autocomplete="organization" /></label>
+          <label class="field"><span>{{partner.form.email}}</span><input name="email" type="email" required autocomplete="email" /></label>
+          <label class="field"><span>{{partner.form.challenge}}</span><textarea name="challenge" rows="4" required></textarea></label>
+          <button class="btn btn-spark" type="submit">{{partner.form.submit}}</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-line" aria-label="{{footer.line|attr}}">
+      <span>{{footer.w1}}</span> <span>{{footer.w2}}</span> <span><em class="accent">{{footer.w3}}</em></span>
+    </p>
+    <div class="footer-meta">
+      <a class="nav-brand" href="#top" aria-label="{{ui.backToTop|attr}}">
+        <svg viewBox="0 0 200 200" aria-hidden="true"><use href="#m-body" class="mark-body" /><use href="#m-spark" class="mark-spark" /></svg>
+        <span>Méridien Brand Society</span>
+      </a>
+      <p>{{footer.about}}</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

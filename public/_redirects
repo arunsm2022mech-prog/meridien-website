@@ -1,0 +1,9 @@
+# Language routing (Netlify reads the visitor's first browser language).
+# French browsers, and visitors with no language set (such as search engines), get the French site at /.
+# Browsers set to any of the languages below get the English site at /en/.
+# The FR/EN switch stores the visitor's choice in the nf_lang cookie, which Netlify uses instead of the browser language.
+/  /en/  302!  Language=en,de,nl,da,sv,nb,nn,no,fi,is,it,es,ca,pt,pl,cs,sk,sl,hr,sr,hu,ro,bg,el,et,lv,lt,ru,uk,tr,ar,he,fa,hi,bn,ur,ta,te,ml,kn,mr,gu,pa,zh,ja,ko,vi,th,id,ms,fil,tl,sw
+
+# Old or guessed French URLs
+/fr    /  301
+/fr/*  /  301
